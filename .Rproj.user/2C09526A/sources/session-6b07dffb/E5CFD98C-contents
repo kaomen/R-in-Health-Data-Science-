@@ -121,6 +121,8 @@ fev_data <- read_csv(here("fev.csv"))
 
 ```{r}
 # Add your code here!
+here("fev.csv")%>%
+  read.csv
 ```
 
 Look at the top few rows of the data:
